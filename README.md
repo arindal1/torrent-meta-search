@@ -54,6 +54,10 @@ Example:
 python torrentous.py "ubuntu" -s 10 -c applications games
 ```
 
+Output:
+
+![image](Screenshot 2024-02-26 235543.png)
+
 Read [HOW_TO_USE](HOW_TO_USE.md) for a detailed commands and examples.
 
 ## Supported Torrent Websites
