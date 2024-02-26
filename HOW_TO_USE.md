@@ -28,7 +28,19 @@
    - `-s SEEDER_LIMIT, --seeder-limit SEEDER_LIMIT`: Specify the minimum number of seeders for filtering torrents (default is 0).
    - `-c CATEGORIES [CATEGORIES ...], --categories CATEGORIES [CATEGORIES ...]`: Specify one or more categories to filter torrents (e.g., movies, music).
 
+---
+
 ### Possible Commands and Examples
+
+- **Getting help**:
+```shell
+$ (python3) torrent_search.py -h
+```
+
+- Perform a **simple** search:
+   ```shell
+   $ (python3) torrent_search.py doom
+   ```
 
 - **Basic Usage**: Search for torrents using a query term.
 
@@ -41,6 +53,9 @@
   ```bash
   python torrent_meta_search.py "ubuntu" -s 10
   ```
+   ```shell
+   $ (python3) torrent_search.py "big bang theory" -s 20
+   ```
 
 - **Filter by Categories**: Filter torrents by one or more categories.
 
@@ -77,6 +92,8 @@
       ]
   }
   ```
+
+---
 
 ### Additional Notes
 
