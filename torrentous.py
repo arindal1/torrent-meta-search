@@ -17,7 +17,11 @@ results = defaultdict(list)
 urlList = {
     'thepiratebay': 'https://thepiratebay10.org/search/{query}/{page}/99/0',
     '1337x': 'https://1337x.to/search/{query}/{page}/',
-    'torlock': 'https://www.torlock.com/all/torrents/{query}/{page}.html'
+    'torlock': 'https://www.torlock.com/all/torrents/{query}/{page}.html',
+    'rarbg': 'https://rarbg.to/torrents.php?search={query}&order=seeders&by=DESC',
+    'yts': 'https://yts.mx/browse-movies/{query}/all/all/0/latest',
+    'torrentz2': 'https://torrentz2.eu/search?f={query}',
+    'eztv': 'https://eztv.io/search/{query}',
 }
 
 # Dictionary mapping category names to their respective labels
