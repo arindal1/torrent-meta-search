@@ -21,13 +21,13 @@ This is a Python script that performs meta-search for torrents across multiple t
 1. Clone or download the repository to your local machine.
 
 ```bash
-git clone https://github.com/arindal1/torrentous.git
+git clone https://github.com/arindal1/torrent-meta-search.git
 ```
 
 2. Navigate to the project directory.
 
 ```bash
-cd torrentous
+cd torrent-meta-search
 ```
 
 3. Install dependencies using pip.
@@ -56,7 +56,7 @@ python torrentous.py "ubuntu" -s 10 -c applications games
 
 Output:
 
-![image](Screenshot 2024-02-26 235543.png)
+![image](https://github.com/arindal1/torrent-meta-search/blob/sidebranch-1/resources/Screenshot%202024-02-26%20235543.png)
 
 Read [HOW_TO_USE](HOW_TO_USE.md) for a detailed commands and examples.
 
