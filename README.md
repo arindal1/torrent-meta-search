@@ -21,13 +21,13 @@ This is a Python script that performs meta-search for torrents across multiple t
 1. Clone or download the repository to your local machine.
 
 ```bash
-git clone https://github.com/arindal1/torrentous.git
+git clone https://github.com/arindal1/torrent-meta-search.git
 ```
 
 2. Navigate to the project directory.
 
 ```bash
-cd torrentous
+cd torrent-meta-search
 ```
 
 3. Install dependencies using pip.
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 Run the script with the desired search query and optional arguments.
 
 ```bash
-python torrent_meta_search.py <query> [-s SEEDER_LIMIT] [-c CATEGORIES [CATEGORIES ...]]
+python torrentous.py <query> [-s SEEDER_LIMIT] [-c CATEGORIES [CATEGORIES ...]]
 ```
 
 - `<query>`: The search term for torrents.
@@ -51,14 +51,42 @@ python torrent_meta_search.py <query> [-s SEEDER_LIMIT] [-c CATEGORIES [CATEGORI
 Example:
 
 ```bash
-python torrent_meta_search.py "ubuntu" -s 10 -c applications games
+python torrentous.py "ubuntu" -s 10 -c applications games
 ```
+
+Output:
+
+![image](https://github.com/arindal1/torrent-meta-search/blob/sidebranch-1/resources/Screenshot%202024-02-26%20235543.png)
+
+Read [HOW_TO_USE](HOW_TO_USE.md) for a detailed commands and examples.
 
 ## Supported Torrent Websites
 
 - **The Pirate Bay**: [thepiratebay.org](https://thepiratebay.org)
 - **1337x**: [1337x.to](https://1337x.to)
 - **Torlock**: [torlock.com](https://torlock.com)
+- **RARBG**: [rarbg.to](https://rarbg.to/)
+- **YTS**: [yts.mx](https://yts.mx/)
+- **Torrentz2**: [torrentz2.eu](https://torrentz2.eu/)
+- **EZTV**: [eztv.io](https://eztv.io/)
+
+## Note
+
+If the script returns an empty JSON object `{}` and then stops without any further output, it indicates that the script didn't find any torrents matching the provided query or filters or the sites that the script uses are down or inaccessible. Here are a few steps to troubleshoot and potentially resolve the issue:
+
+1. **Verify Internet Connection**: Ensure that your internet connection is stable and functioning properly. The script relies on internet access to fetch search results from torrent websites.
+2. **Check Query Term**: Double-check the query term you provided when running the script. Make sure it's correctly spelled and represents what you intend to search for.
+3. **Test Torrent Websites**: Manually visit the torrent websites (The Pirate Bay, 1337x, Torlock) in your web browser to verify that they are accessible and operational. Sometimes, websites may be down or experiencing issues, which can affect the script's ability to fetch results.
+
+Additionally, keep in mind that accessing and using torrent sites may be subject to **legal regulations** in your region, so make sure to comply with any applicable laws.
+
+## Contact
+
+If you have any questions or suggestions related to this project, you can reach out to me at:
+
+- GitHub: [arindal1](https://github.com/arindal1)
+- LinkedIn: [arindalchar](https://www.linkedin.com/arindalchar/)
+- Twitter: [arindal_17](https://twitter.com/arindal_17)
 
 ## License
 
